@@ -20,6 +20,8 @@ print(preInsulin)
 print("The sequence of human insulin, chain a: " + aInsulin)
 insulin = bInsulin + aInsulin
 
+print(insulin)
+
 # Calculating the molecular weight of insulin  
 # Creating a list of the amino acid (AA) weights  
 aaWeights = {'A': 89.09, 'C': 121.16, 'D': 133.10, 'E': 147.13, 'F': 165.19,
@@ -39,6 +41,8 @@ str(molecularWeightInsulin))
 
 molecularWeightInsulinActual = 5807.63
 print("Error percentage: " + str(((molecularWeightInsulin - molecularWeightInsulinActual)/molecularWeightInsulinActual)*100))
+
+print(insulin.count("y"))
 
 
 
